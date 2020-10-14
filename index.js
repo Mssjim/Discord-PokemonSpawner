@@ -5,8 +5,8 @@ const bot3 = new Client();
 const bot4 = new Client();
 const bot5 = new Client();
 const settings = require('./settings.json');
-const delay = 3000;
-const delay2 = 10000;
+const delay = settings.delay;
+const delay2 = settings.delayPollux;
 
 var m = 1;
 
