@@ -56,6 +56,13 @@ bot5.on('ready', ()=>{
     }, delay);
 });
 
+// Pollux Crates
+bot1.on('message', async(msg)=>{
+    if(msg.author.id === settings.polluxId) {
+		msg.channel.send(`<@${settings.yourId}> Pollux Box`);
+    }   
+});
+
 bot1.login(settings.token1);
 bot2.login(settings.token2);
 bot3.login(settings.token3);
