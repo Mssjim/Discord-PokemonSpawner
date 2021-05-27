@@ -1,12 +1,8 @@
 {	
-	"token1": "",
-	"token2": "",
-    "token3": "",
-	"token4": "",
-	"token5": "",
-	"prefix": ";",
-	"delay": 3000,
-	"delayPollux": 5000,
-	"polluxId": "271394014358405121",
-	"yourId": ""
+	"channelId" : "",
+	"spamMessage" : "Spawn!",
+	"delay" : 2000,
+	"tokens" : [
+		""
+	]
 }
